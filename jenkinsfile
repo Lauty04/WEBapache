@@ -1,0 +1,14 @@
+pipeline {
+  agent any
+  stages {
+    stage('Moviendo archivo') {
+      steps {
+        script {
+                    git 'pwd'
+                }
+      }
+    }
+
+    }
+
+  }
